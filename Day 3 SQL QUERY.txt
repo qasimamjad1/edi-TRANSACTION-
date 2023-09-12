@@ -1,0 +1,15 @@
+SELECT Distinct  RequestMast.patientID, PMPTXFT.vFullName, RequestMast.statusID, RequestMast.EligibilityInquirySource, Status_Res.status, EligibilityInquirySource.Description, PMPTXFT.VAccNo
+FROM RequestMast 
+INNER JOIN Status_Res  ON RequestMast.statusID = Status_Res.statusID
+
+
+ INNER JOIN EligibilityInquirySource ON RequestMast.EligibilityInquirySource = EligibilityInquirySource .ID
+
+
+ Inner join PMPTXFT ON RequestMast.patientID = PMPTXFT.IPATID
+ 
+
+
+
+
+ORDER BY RequestMast.patientID

@@ -1,0 +1,28 @@
+9/12/2023
+
+Task to do:
+
+See and Understand eligibility files request 270/response 271
+check their format from guide 
+
+See the Front end of the Response files and check which info is required 
+
+Mapping of the SQL files adding Insurance table-> Policy number and Insurance name 
+
+Future Eligibility Inquiry
+
+Charges
+P/I (quick and ub04/ub92 charge)
+
+Provider Types 
+Windows Services
+
+Individual billing , Group billing (billing Group)
+
+See ICD Diagnosis and CPT(Procedure)
+
+Modifiers in CPT /Precedure and Purpose 
+
+Primary Plan/Responsible plan 
+
+difference in Inner join and Outer Join?
